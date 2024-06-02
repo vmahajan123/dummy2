@@ -1,0 +1,176 @@
+* {
+    margin: 0% ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: black;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    color: white;
+    cursor: pointer;
+}
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+.nav1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    font-weight: 700;
+}
+.nav2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.3vw;
+}
+
+button {
+    padding: 0.67vw 1.2vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav i {
+    font-size: 1.5vw;
+}
+.container {
+    height: 30vw;
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color: rgb(7, 22, 22); */
+}
+.left {
+    height: 30vw;
+    width: 50%;
+    background-color: black;
+    align-items: center;
+    padding: 0.5vw;
+}
+.left h1 {
+    font-size: 6vw;
+    margin-top: 40px;
+}
+.left h2 {
+    font-size: 3vw;
+    margin-top: 20px;
+}
+.left .in {
+    color: orange;
+}
+.left .ia {
+    color: green;
+}
+.left button {
+    margin-top: 4vw;
+    margin-left: 35%;
+    padding: 1.2vw 1.4vw;
+    background-color: rgb(7, 22, 22);
+    color: white;
+    font-size: 1.5vw;
+}
+.right {
+    height: 30vw;
+    width: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.right img {
+    height: 30vw;
+    width: 45%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+@media (max-width:600px) {
+    .nav {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .nav1 {
+        padding: 0 5vw;
+    }
+    .nav1 h2 {
+        font-size: 6vw;
+    }
+    .nav2 h4 {
+        font-size: 4vw;
+    }
+    button {
+        padding: 1vw 1.2vw;
+        border-radius: 5px;
+        border: none;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    nav i {
+        font-size: 3vw;
+        color: white;
+        opacity: 1;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        margin-top: -5vw;
+    }
+    .left {
+        height: 50%;
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+    }
+    .left h1 {
+        font-size: 11.5vw;
+    }
+    .left h2 {
+        font-size: 9vw;
+    }
+    .left button {
+        font-size: 5vw;
+        padding: 3vw 3vw;
+        margin-top: 8vw;
+        margin-right: 50;
+    }
+    .right {
+        height: 50%;
+        width: 100%;
+    }
+    .right img {
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 3vw;
+    }
+
+    
+}
